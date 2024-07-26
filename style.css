@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+body {
+  font-size: 17px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #444;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  margin-top: 1rem;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.button i {
+  margin-left: 10px;
+}
+
+.removeElement {
+  background-color: #e74c3c;
+  color: white;
+  font-size: 1.5rem;
+  width: 7rem;
+  height: 3rem;
+  right: -1rem;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.removeElement:hover {
+  background-color: #c0392b;
+}
+
+.createElement {
+  background-color: #2ecc71;
+  color: white;
+  font-size: 1.5rem;
+  width: 7rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  left: -1rem;
+  position: relative;
+}
+
+.createElement:hover {
+  background-color: #27ae60;
+}
+
+.box {
+  width: calc(32% - 20px);
+  height: 20rem;
+  background: dimgray;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 5px 0;
+  flex-direction: column;
+}
+
+.top {
+  width: 27rem;
+  height: 3rem;
+  background: gray;
+  border: none;
+  border-radius: 5px;
+  left: 1rem;
+  position: relative;
+  margin-top: 1rem;
+}
+
+.bigBox {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 90rem;
+  height: auto;
+}
+
+.createBox {
+  top: 1rem;
+  position: absolute;
+  background-color: #2ecc71;
+  color: white;
+  font-size: 23px;
+  width: 12rem;
+  height: 3rem;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 69rem;
+  left: 12rem;
+  position: relative;
+}
+
+.bigBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  max-width: 90rem;
+  padding: 1rem;
+  margin: 2rem auto;
+  border-radius: 10px;
+  top: 2rem;
+  position: relative;
+}
+
+.top {
+  height: 3rem;
+  width: 13rem;
+  background: gray;
+  border: none;
+  border-radius: 5px;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  margin-top: 1rem;
+  top: 28.3rem;
+  position: absolute;
+  left: 2rem;
+}
+
+.mainBox {
+  width: 23rem;
+  height: 20rem;
+  left: 1rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+}
+.downElement {
+  text-align: center;
+  top: -0.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+.topElement {
+  background: rebeccapurple;
+  height: 2rem;
+  border-radius: 5px;
+  border: none;
+  top: 6px;
+  left: 1rem;
+  position: relative;
+  width: 19rem;
+  margin-bottom: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  transform: 2s -webkit-transform 2;
+}
+
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 24rem;
+}
+
+.buttons button {
+  width: 11rem;
+  border-radius: 5px;
+  border: none;
+  height: 2rem;
+}
